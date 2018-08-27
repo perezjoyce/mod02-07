@@ -1,0 +1,59 @@
+* {
+	margin: 0;
+}
+
+div {
+	padding: 20px;
+}
+
+.grandparent {
+	background-color: skyblue;
+	/*position: relative;*/
+	/*position: absolute;*/
+	bottom: 50px;
+	right: 50px;
+	left: 50px;
+	/*width: 600px;
+	margin: 20px auto;*/
+
+	position: fixed;
+}
+
+.parent {
+	background-color: pink;
+	/*position: relative;*/
+}
+
+p {
+	/*position: static;*/
+	margin-left: 50px;
+	/*margin-top: -20px;*/
+}
+
+/*input[name="submit"] {
+	margin-left: 20px;
+}*/
+
+input[name="firstname"] {
+	margin-right: 20px;
+}
+
+h1 {
+	/*margin-bottom: -20px;*/
+}
+
+strong {
+	background-color: yellow;
+	/*position: relative;
+	left: 50px;
+	top: 100px;
+	left: 100px;*/
+
+	/*position: absolute;
+	top: 10px;
+	left: 10px;*/
+}
+
+.long-par {
+	height: 3000px;
+}
