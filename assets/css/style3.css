@@ -96,6 +96,21 @@ p {
 	width: 300px;
 }
 
-.news {
-	margin: 0 30%
+textarea {
+	display: block;
+	width: 85%;
+	height: 20%;
+}
+
+div[class="sidebar"] {
+	font-size: 0.8em;
+}
+
+.sidebar-child {
+	margin-top: 10%;
+	margin-left: 15%;
+}
+
+input[name="send"] {
+	margin-top: 2%;
 }
